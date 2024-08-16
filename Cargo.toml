@@ -1,0 +1,9 @@
+[package]
+name = "Sudoku_Solver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.207", features = ["derive"] }
+serde_json = "1.0.124"
+rand = "0.9.0-alpha.2"
